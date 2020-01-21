@@ -1,0 +1,48 @@
+{
+ "name": "Glip",
+ "description": "Atlassian Confluence RingCentral Glip add-on",
+ "key": "com.ringcentral.confluence-glip-addon-1",
+ "baseUrl": "https://hooks.glip.com/webhook",
+ "vendor": {
+  "name": "RingCentral, Inc.",
+  "url": "https://www.ringcentral.com/"
+ },
+ "scopes": [
+  "read"
+ ],
+ "authentication": {
+  "type": "none"
+ },
+ "modules": {
+  "webhooks": [
+   {
+    "event": "attachment_created",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "blog_created",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "blog_updated",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "comment_created",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "comment_updated",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "page_created",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   },
+   {
+    "event": "page_updated",
+    "url": "/5f0d4b2b-a0db-48eb-bbee-40e0212b84ff"
+   }
+  ]
+ }
+}
